@@ -1,26 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8"/>
     <title>Cadastro de Onibus e Rotas</title>
     <link rel="stylesheet" href="create.css">
 </head>
 <body>
     <header>
         <figure>
-            <img src="Imagens/Onibus Guanabara.png">
+  		<a href="http://catalobus.com.br"><img src="Imagens/Onibus Guanabara.png"></a>
         </figure>
         <h1>Cadastro de Ônibus e Rotas</h1>
     </header>
     <main>
-        <form action="#" method="post">
+        <form action="create_post.php" method="post">
             <div class="block1">
                 <div class="form-group">
                     <label for="nome-onibus">Quantidade de Onibus</label>
-                    <input type="text" id="nome-onibus" name="nome-onibus" required>
+                    <input type="text" id="qtd" name="qtd" required>
                 </div>
                 <div class="form-group">
                     <label for="nome-onibus">Numero</label>
-                    <input type="text" id="nome-onibus" name="nome-onibus" required>
+                    <input type="text" id="numero" name="numero" required>
                 </div>
             </div>
             <div class="block2">
@@ -41,7 +42,7 @@
         </form>
     </main>
     <footer>
-
+	<h3>CataloBus</h3>
     </footer>
 </body>
 </html>
